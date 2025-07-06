@@ -1,0 +1,23 @@
+gpu: 0
+input: "" # 单张图片的路径或者多个图片的目录
+output: "" # 输出目录
+shape: 256
+use_denoise: false # 控制DM的使用
+
+# 子配置文件都需要更新的参数，同时要注册于 utils/config.py 中的 stage_config_updated_params()函数中
+subconfig_path: ./configs/imagenet.yaml
+algorithm: g_ddim
+debug: false
+mode: denoise
+n_samples: 1
+
+ddim:
+  denoise_step: 5 # 根据图片中噪声情况自行选择去噪开始的步数，噪声小用小的步数，噪声大用更大的步数
+
+
+
+
+
+
+
+
