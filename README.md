@@ -27,7 +27,9 @@ python scripts/preprocess_crop.py
 ```
 ### Patch Denosing and Merging
 Custom denoising start timestep: Starting from a noisy image, use the diffusion model to predict noise and apply DDIM sampling for the next step.
+
 <img src="assets/method.jpg" width="960">
+
 ```text
 Input parameter description:
 python main.py
