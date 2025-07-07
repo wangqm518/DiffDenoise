@@ -2,6 +2,7 @@
 Existing denoising methods require paired clean and noisy images for training, i.e., they are supervised. 
 However, in reality, it is difficult to obtain clean images corresponding to noisy ones. 
 For additive Gaussian noise, it aligns perfectly with diffusion models, as they are inherently noise predictors.
+<img src="assets/00020.png" width="960"><img src="assets/00020_denoised_5step.png" width="960"><img src="assets/00020_denoised_10step.png" width="960">
 ## Requirements
 ### Environment
 The code requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8`.
@@ -26,7 +27,7 @@ python scripts/preprocess_crop.py
 ```
 ### Patch Denosing and Merging
 ```text
-输入参数说明：
+Input parameter description:
 python main.py
     --config_file           Main config file path
     --input:                The path to the input image or folder
