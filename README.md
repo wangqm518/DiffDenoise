@@ -4,10 +4,8 @@ However, in reality, it is difficult to obtain clean images corresponding to noi
 For additive Gaussian noise, it aligns perfectly with diffusion models, as they are inherently noise predictors.
 
 Noised image:<img src="assets/00020.png" width="960">
-
-Start denoising from the fifth step.<img src="assets/00020_denoised_5step.png" width="960">
-
-Start denoising from the tenth step.<img src="assets/00020_denoised_10step.png" width="960">
+Start denoising from the fifth step:<img src="assets/00020_denoised_5step.png" width="960">
+Start denoising from the tenth step:<img src="assets/00020_denoised_10step.png" width="960">
 
 ## Requirements
 ### Environment
