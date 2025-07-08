@@ -2,7 +2,10 @@
 Existing denoising methods require paired clean and noisy images for training, i.e., they are supervised. 
 However, in reality, it is difficult to obtain clean images corresponding to noisy ones. 
 For additive Gaussian noise, it aligns perfectly with diffusion models, as they are inherently noise predictors.
-<img src="assets/00020.png" width="960"><img src="assets/00020_denoised_5step.png" width="960"><img src="assets/00020_denoised_10step.png" width="960">
+
+Noised image:<img src="assets/00020.png" width="960">
+Start denoising from the fifth step.<img src="assets/00020_denoised_5step.png" width="960">
+Start denoising from the tenth step.<img src="assets/00020_denoised_10step.png" width="960">
 ## Requirements
 ### Environment
 The code requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8`.
